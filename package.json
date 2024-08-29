@@ -1,0 +1,25 @@
+{
+  "name": "anonymous-account-service",
+  "version": "0.1.0",
+  "description": "A service which a user can use to create accounts, login, verify emails, etc.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b1gd3vd0g/anonymous-account-service.git"
+  },
+  "author": "Devin Peevy <devin@bigdevdog.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/b1gd3vd0g/anonymous-account-service/issues"
+  },
+  "homepage": "https://github.com/b1gd3vd0g/anonymous-account-service#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "postgres": "^3.4.4"
+  }
+}
